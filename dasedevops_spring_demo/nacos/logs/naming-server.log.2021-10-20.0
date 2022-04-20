@@ -1,0 +1,306 @@
+2021-10-20 08:52:36,256 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2021-10-20 08:52:36,256 WARN Using naming.distro config to replace core.distro config
+
+2021-10-20 08:52:36,591 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2021-10-20 08:52:36,593 INFO listen for service meta change
+
+2021-10-20 08:53:34,526 INFO Client connection 192.168.75.1:8101#true connect
+
+2021-10-20 08:53:34,529 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=0}, 192.168.75.1:8101#true
+
+2021-10-20 08:53:37,301 INFO Client connection 192.168.75.1:64852#true connect
+
+2021-10-20 08:53:37,961 INFO Client connection 192.168.75.1:8080#true connect
+
+2021-10-20 08:53:37,962 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=0}, 192.168.75.1:8080#true
+
+2021-10-20 08:53:44,689 INFO Client connection 192.168.75.1:52114#true connect
+
+2021-10-20 08:53:45,171 INFO Client connection 192.168.75.1:8000#true connect
+
+2021-10-20 08:53:45,171 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=0}, 192.168.75.1:8000#true
+
+2021-10-20 08:54:04,000 INFO Client connection 192.168.75.1:62242#true connect
+
+2021-10-20 12:07:21,183 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2021-10-20 12:07:21,183 WARN Using naming.distro config to replace core.distro config
+
+2021-10-20 12:07:21,563 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2021-10-20 12:07:21,564 INFO listen for service meta change
+
+2021-10-20 12:16:16,621 INFO Client connection 192.168.75.1:8101#true connect
+
+2021-10-20 12:16:16,624 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=0}, 192.168.75.1:8101#true
+
+2021-10-20 12:16:18,800 INFO Client connection 192.168.75.1:62008#true connect
+
+2021-10-20 12:16:19,909 INFO Client connection 192.168.75.1:8080#true connect
+
+2021-10-20 12:16:19,909 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=0}, 192.168.75.1:8080#true
+
+2021-10-20 12:16:24,934 INFO Client connection 192.168.75.1:62009#true connect
+
+2021-10-20 12:16:25,506 INFO Client connection 192.168.75.1:8000#true connect
+
+2021-10-20 12:16:25,506 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=0}, 192.168.75.1:8000#true
+
+2021-10-20 12:16:46,085 INFO Client connection 192.168.75.1:53365#true connect
+
+2021-10-20 12:40:02,388 INFO Client connection 192.168.75.1:62009#true disconnect, remove instances and subscribers
+
+2021-10-20 12:40:02,388 INFO Client connection 192.168.75.1:53365#true disconnect, remove instances and subscribers
+
+2021-10-20 12:40:02,703 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=1}, ip: {"ip":"192.168.75.1","port":8000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8000#DEFAULT#DEFAULT_GROUP@@user-center"},"lastHeartBeatTime":1634704771794,"metadataId":"192.168.75.1:8000:DEFAULT"}
+
+2021-10-20 12:40:02,703 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=1}, 192.168.75.1:8000#true
+
+2021-10-20 12:40:04,000 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=1}, ip: {"ip":"192.168.75.1","port":8101,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8101#DEFAULT#DEFAULT_GROUP@@shuishan-portal-server"},"lastHeartBeatTime":1634704773566,"metadataId":"192.168.75.1:8101:DEFAULT"}
+
+2021-10-20 12:40:04,000 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=1}, 192.168.75.1:8101#true
+
+2021-10-20 12:40:07,055 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=1}, ip: {"ip":"192.168.75.1","port":8080,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8080#DEFAULT#DEFAULT_GROUP@@gateway-zuul"},"lastHeartBeatTime":1634704774262,"metadataId":"192.168.75.1:8080:DEFAULT"}
+
+2021-10-20 12:40:07,055 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=1}, 192.168.75.1:8080#true
+
+2021-10-20 12:40:07,394 INFO Client connection 192.168.75.1:8000#true disconnect, remove instances and subscribers
+
+2021-10-20 12:40:07,394 INFO Client connection 192.168.75.1:62008#true disconnect, remove instances and subscribers
+
+2021-10-20 12:40:07,394 INFO Client connection 192.168.75.1:8080#true disconnect, remove instances and subscribers
+
+2021-10-20 12:40:07,394 INFO Client connection 192.168.75.1:8101#true disconnect, remove instances and subscribers
+
+2021-10-20 12:42:02,380 WARN namespace : public, [DEFAULT_GROUP@@user-center] services are automatically cleaned
+
+2021-10-20 12:42:02,380 WARN namespace : public, [DEFAULT_GROUP@@shuishan-portal-server] services are automatically cleaned
+
+2021-10-20 12:42:02,381 WARN namespace : public, [DEFAULT_GROUP@@gateway-zuul] services are automatically cleaned
+
+2021-10-20 15:36:32,672 INFO Client connection 192.168.75.1:8080#true connect
+
+2021-10-20 15:36:32,672 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=0}, 192.168.75.1:8080#true
+
+2021-10-20 15:36:33,730 INFO Client connection 192.168.75.1:63208#true connect
+
+2021-10-20 15:36:38,064 INFO Client connection 192.168.75.1:64077#true connect
+
+2021-10-20 15:36:39,370 INFO Client connection 192.168.75.1:8101#true connect
+
+2021-10-20 15:36:39,371 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=0}, 192.168.75.1:8101#true
+
+2021-10-20 15:36:57,770 INFO Client connection 192.168.75.1:54389#true connect
+
+2021-10-20 15:36:58,719 INFO Client connection 192.168.75.1:8000#true connect
+
+2021-10-20 15:36:58,720 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=0}, 192.168.75.1:8000#true
+
+2021-10-20 16:07:47,451 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=1}, ip: {"ip":"192.168.75.1","port":8101,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8101#DEFAULT#DEFAULT_GROUP@@shuishan-portal-server"},"lastHeartBeatTime":1634717236779,"metadataId":"192.168.75.1:8101:DEFAULT"}
+
+2021-10-20 16:07:47,451 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=1}, 192.168.75.1:8101#true
+
+2021-10-20 16:07:50,645 INFO Client connection 192.168.75.1:8101#true disconnect, remove instances and subscribers
+
+2021-10-20 16:07:55,650 INFO Client connection 192.168.75.1:64077#true disconnect, remove instances and subscribers
+
+2021-10-20 16:08:06,166 INFO Client connection 192.168.75.1:61350#true connect
+
+2021-10-20 16:08:06,760 INFO Client connection 192.168.75.1:8101#true connect
+
+2021-10-20 16:08:06,760 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=2}, 192.168.75.1:8101#true
+
+2021-10-20 16:24:18,327 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=3}, ip: {"ip":"192.168.75.1","port":8101,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8101#DEFAULT#DEFAULT_GROUP@@shuishan-portal-server"},"lastHeartBeatTime":1634718227900,"metadataId":"192.168.75.1:8101:DEFAULT"}
+
+2021-10-20 16:24:18,328 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=3}, 192.168.75.1:8101#true
+
+2021-10-20 16:24:20,801 INFO Client connection 26.26.26.1:61520#true connect
+
+2021-10-20 16:24:21,350 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=4}, 192.168.75.1:8101#true
+
+2021-10-20 16:24:22,465 INFO Client connection 192.168.75.1:61350#true disconnect, remove instances and subscribers
+
+2021-10-20 16:29:12,957 INFO Client connection 192.168.75.1:63208#true disconnect, remove instances and subscribers
+
+2021-10-20 16:29:12,957 INFO Client connection 26.26.26.1:61520#true disconnect, remove instances and subscribers
+
+2021-10-20 16:29:13,068 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=1}, ip: {"ip":"192.168.75.1","port":8080,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8080#DEFAULT#DEFAULT_GROUP@@gateway-zuul"},"lastHeartBeatTime":1634718520648,"metadataId":"192.168.75.1:8080:DEFAULT"}
+
+2021-10-20 16:29:13,068 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=1}, 192.168.75.1:8080#true
+
+2021-10-20 16:29:13,942 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=5}, ip: {"ip":"192.168.75.1","port":8101,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8101#DEFAULT#DEFAULT_GROUP@@shuishan-portal-server"},"lastHeartBeatTime":1634718523829,"metadataId":"192.168.75.1:8101:DEFAULT"}
+
+2021-10-20 16:29:13,942 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=5}, 192.168.75.1:8101#true
+
+2021-10-20 16:29:17,966 INFO Client connection 192.168.75.1:54389#true disconnect, remove instances and subscribers
+
+2021-10-20 16:29:17,966 INFO Client connection 192.168.75.1:8080#true disconnect, remove instances and subscribers
+
+2021-10-20 16:29:17,966 INFO Client connection 192.168.75.1:8101#true disconnect, remove instances and subscribers
+
+2021-10-20 16:29:18,983 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=1}, ip: {"ip":"192.168.75.1","port":8000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8000#DEFAULT#DEFAULT_GROUP@@user-center"},"lastHeartBeatTime":1634718524605,"metadataId":"192.168.75.1:8000:DEFAULT"}
+
+2021-10-20 16:29:18,983 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=1}, 192.168.75.1:8000#true
+
+2021-10-20 16:29:22,973 INFO Client connection 192.168.75.1:8000#true disconnect, remove instances and subscribers
+
+2021-10-20 16:29:24,737 INFO Client connection 26.26.26.1:53125#true connect
+
+2021-10-20 16:29:25,264 INFO Client connection 192.168.75.1:8080#true connect
+
+2021-10-20 16:29:25,264 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=2}, 192.168.75.1:8080#true
+
+2021-10-20 16:29:27,944 INFO Client connection 26.26.26.1:62833#true connect
+
+2021-10-20 16:29:28,453 INFO Client connection 192.168.75.1:8101#true connect
+
+2021-10-20 16:29:28,453 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=6}, 192.168.75.1:8101#true
+
+2021-10-20 16:29:34,493 INFO Client connection 26.26.26.1:62834#true connect
+
+2021-10-20 16:29:35,004 INFO Client connection 192.168.75.1:8000#true connect
+
+2021-10-20 16:29:35,004 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=2}, 192.168.75.1:8000#true
+
+2021-10-20 16:32:03,314 INFO Client connection 26.26.26.1:53125#true disconnect, remove instances and subscribers
+
+2021-10-20 16:32:05,537 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=3}, ip: {"ip":"192.168.75.1","port":8080,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8080#DEFAULT#DEFAULT_GROUP@@gateway-zuul"},"lastHeartBeatTime":1634718691340,"metadataId":"192.168.75.1:8080:DEFAULT"}
+
+2021-10-20 16:32:05,537 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=3}, 192.168.75.1:8080#true
+
+2021-10-20 16:32:08,322 INFO Client connection 26.26.26.1:62834#true disconnect, remove instances and subscribers
+
+2021-10-20 16:32:08,322 INFO Client connection 192.168.75.1:8080#true disconnect, remove instances and subscribers
+
+2021-10-20 16:32:10,276 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=3}, ip: {"ip":"192.168.75.1","port":8000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8000#DEFAULT#DEFAULT_GROUP@@user-center"},"lastHeartBeatTime":1634718699571,"metadataId":"192.168.75.1:8000:DEFAULT"}
+
+2021-10-20 16:32:10,276 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=3}, 192.168.75.1:8000#true
+
+2021-10-20 16:32:13,329 INFO Client connection 192.168.75.1:8000#true disconnect, remove instances and subscribers
+
+2021-10-20 16:32:13,329 INFO Client connection 26.26.26.1:62833#true disconnect, remove instances and subscribers
+
+2021-10-20 16:32:13,732 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=7}, ip: {"ip":"192.168.75.1","port":8101,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8101#DEFAULT#DEFAULT_GROUP@@shuishan-portal-server"},"lastHeartBeatTime":1634718699209,"metadataId":"192.168.75.1:8101:DEFAULT"}
+
+2021-10-20 16:32:13,732 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=7}, 192.168.75.1:8101#true
+
+2021-10-20 16:32:16,452 INFO Client connection 26.26.26.1:53848#true connect
+
+2021-10-20 16:32:17,011 INFO Client connection 192.168.75.1:8080#true connect
+
+2021-10-20 16:32:17,011 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=4}, 192.168.75.1:8080#true
+
+2021-10-20 16:32:18,363 INFO Client connection 192.168.75.1:8101#true disconnect, remove instances and subscribers
+
+2021-10-20 16:32:22,297 INFO Client connection 26.26.26.1:53093#true connect
+
+2021-10-20 16:32:22,748 INFO Client connection 192.168.75.1:8101#true connect
+
+2021-10-20 16:32:22,748 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=8}, 192.168.75.1:8101#true
+
+2021-10-20 16:32:25,824 INFO Client connection 26.26.26.1:54567#true connect
+
+2021-10-20 16:32:26,282 INFO Client connection 192.168.75.1:8000#true connect
+
+2021-10-20 16:32:26,282 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=4}, 192.168.75.1:8000#true
+
+2021-10-20 16:33:18,549 INFO Client connection 26.26.26.1:54567#true disconnect, remove instances and subscribers
+
+2021-10-20 16:33:23,557 INFO Client connection 26.26.26.1:53848#true disconnect, remove instances and subscribers
+
+2021-10-20 16:33:23,557 INFO Client connection 26.26.26.1:53093#true disconnect, remove instances and subscribers
+
+2021-10-20 16:33:26,517 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=5}, ip: {"ip":"192.168.75.1","port":8000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8000#DEFAULT#DEFAULT_GROUP@@user-center"},"lastHeartBeatTime":1634718773619,"metadataId":"192.168.75.1:8000:DEFAULT"}
+
+2021-10-20 16:33:26,517 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=5}, 192.168.75.1:8000#true
+
+2021-10-20 16:33:27,294 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=5}, ip: {"ip":"192.168.75.1","port":8080,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8080#DEFAULT#DEFAULT_GROUP@@gateway-zuul"},"lastHeartBeatTime":1634718773951,"metadataId":"192.168.75.1:8080:DEFAULT"}
+
+2021-10-20 16:33:27,295 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=5}, 192.168.75.1:8080#true
+
+2021-10-20 16:33:27,865 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=9}, ip: {"ip":"192.168.75.1","port":8101,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8101#DEFAULT#DEFAULT_GROUP@@shuishan-portal-server"},"lastHeartBeatTime":1634718774939,"metadataId":"192.168.75.1:8101:DEFAULT"}
+
+2021-10-20 16:33:27,865 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=9}, 192.168.75.1:8101#true
+
+2021-10-20 16:33:28,562 INFO Client connection 192.168.75.1:8000#true disconnect, remove instances and subscribers
+
+2021-10-20 16:33:28,563 INFO Client connection 192.168.75.1:8080#true disconnect, remove instances and subscribers
+
+2021-10-20 16:33:28,563 INFO Client connection 192.168.75.1:8101#true disconnect, remove instances and subscribers
+
+2021-10-20 16:33:37,915 INFO Client connection 26.26.26.1:57866#true connect
+
+2021-10-20 16:33:38,480 INFO Client connection 192.168.75.1:8080#true connect
+
+2021-10-20 16:33:38,480 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=6}, 192.168.75.1:8080#true
+
+2021-10-20 16:33:41,707 INFO Client connection 26.26.26.1:55147#true connect
+
+2021-10-20 16:33:42,228 INFO Client connection 192.168.75.1:8101#true connect
+
+2021-10-20 16:33:42,228 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=10}, 192.168.75.1:8101#true
+
+2021-10-20 16:33:50,747 INFO Client connection 26.26.26.1:49213#true connect
+
+2021-10-20 16:33:51,230 INFO Client connection 192.168.75.1:8000#true connect
+
+2021-10-20 16:33:51,230 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=6}, 192.168.75.1:8000#true
+
+2021-10-20 16:40:14,228 INFO Client connection 26.26.26.1:55147#true disconnect, remove instances and subscribers
+
+2021-10-20 16:40:18,283 INFO Client connection 26.26.26.1:49887#true connect
+
+2021-10-20 16:40:18,830 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=11}, 192.168.75.1:8101#true
+
+2021-10-20 17:07:41,208 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=7}, ip: {"ip":"192.168.75.1","port":8000,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8000#DEFAULT#DEFAULT_GROUP@@user-center"},"lastHeartBeatTime":1634720170048,"metadataId":"192.168.75.1:8000:DEFAULT"}
+
+2021-10-20 17:07:41,208 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=7}, 192.168.75.1:8000#true
+
+2021-10-20 17:07:41,209 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=12}, ip: {"ip":"192.168.75.1","port":8101,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8101#DEFAULT#DEFAULT_GROUP@@shuishan-portal-server"},"lastHeartBeatTime":1634720168707,"metadataId":"192.168.75.1:8101:DEFAULT"}
+
+2021-10-20 17:07:41,209 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=12}, 192.168.75.1:8101#true
+
+2021-10-20 17:07:41,210 INFO [AUTO-DELETE-IP] service: Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=7}, ip: {"ip":"192.168.75.1","port":8080,"healthy":false,"cluster":"DEFAULT","extendDatum":{"preserved.register.source":"SPRING_CLOUD","customInstanceId":"192.168.75.1#8080#DEFAULT#DEFAULT_GROUP@@gateway-zuul"},"lastHeartBeatTime":1634720169437,"metadataId":"192.168.75.1:8080:DEFAULT"}
+
+2021-10-20 17:07:41,210 INFO Client remove for service Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=7}, 192.168.75.1:8080#true
+
+2021-10-20 17:07:42,115 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=12}, 192.168.75.1:8101#true
+
+2021-10-20 17:07:42,795 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=8}, 192.168.75.1:8080#true
+
+2021-10-20 17:07:43,389 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=8}, 192.168.75.1:8000#true
+
+2021-10-20 17:07:44,209 INFO Client connection 26.26.26.1:49887#true disconnect, remove instances and subscribers
+
+2021-10-20 17:07:48,892 INFO Client connection 26.26.26.1:49887#true connect
+
+2021-10-20 17:08:44,217 WARN namespace : public, [DEFAULT_GROUP@@shuishan-portal-server] services are automatically cleaned
+
+2021-10-20 18:11:30,844 WARN naming.distro config will be removed, please use core.protocol.distro replace.
+
+2021-10-20 18:11:30,845 WARN Using naming.distro config to replace core.distro config
+
+2021-10-20 18:11:31,218 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2021-10-20 18:11:31,219 INFO listen for service meta change
+
+2021-10-20 18:12:19,531 INFO Client connection 192.168.75.1:8101#true connect
+
+2021-10-20 18:12:19,534 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='shuishan-portal-server', ephemeral=true, revision=0}, 192.168.75.1:8101#true
+
+2021-10-20 18:12:21,225 INFO Client connection 192.168.75.1:63637#true connect
+
+2021-10-20 18:12:22,198 INFO Client connection 192.168.75.1:8080#true connect
+
+2021-10-20 18:12:22,198 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='gateway-zuul', ephemeral=true, revision=0}, 192.168.75.1:8080#true
+
+2021-10-20 18:12:26,884 INFO Client connection 192.168.75.1:63638#true connect
+
+2021-10-20 18:12:27,565 INFO Client connection 192.168.75.1:8000#true connect
+
+2021-10-20 18:12:27,565 INFO Client change for service Service{namespace='public', group='DEFAULT_GROUP', name='user-center', ephemeral=true, revision=0}, 192.168.75.1:8000#true
+
+2021-10-20 18:12:49,002 INFO Client connection 192.168.75.1:56650#true connect
+
